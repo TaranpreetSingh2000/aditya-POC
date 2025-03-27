@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "headings",
+  "info": {
+    "singularName": "heading",
+    "pluralName": "headings",
+    "displayName": "Heading",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Heading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "heading.heading"
+    }
+  }
+}

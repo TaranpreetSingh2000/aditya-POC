@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "legacyposts",
+  "info": {
+    "singularName": "legacypost",
+    "pluralName": "legacyposts",
+    "displayName": "LegacyPosts",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "block": {
+      "type": "blocks"
+    }
+  }
+}

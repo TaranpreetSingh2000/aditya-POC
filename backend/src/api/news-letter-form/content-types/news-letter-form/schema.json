@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_letter_forms",
+  "info": {
+    "singularName": "news-letter-form",
+    "pluralName": "news-letter-forms",
+    "displayName": "newsLetterForm",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email",
+      "required": false,
+      "unique": false
+    },
+    "mobile": {
+      "type": "biginteger"
+    }
+  }
+}

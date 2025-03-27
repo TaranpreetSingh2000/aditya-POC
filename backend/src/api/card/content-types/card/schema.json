@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "cards",
+  "info": {
+    "singularName": "card",
+    "pluralName": "cards",
+    "displayName": "card",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adityaCardComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    },
+    "Biocard": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.card"
+    }
+  }
+}

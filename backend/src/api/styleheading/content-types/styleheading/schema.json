@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "styleheadings",
+  "info": {
+    "singularName": "styleheading",
+    "pluralName": "styleheadings",
+    "displayName": "styleHeading",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "styleHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-heading.page-heading"
+    }
+  }
+}

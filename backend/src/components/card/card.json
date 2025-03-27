@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_card_cards",
+  "info": {
+    "displayName": "Card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cardIcon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cardTitle": {
+      "type": "string",
+      "required": true
+    },
+    "cardDescription": {
+      "type": "blocks",
+      "required": false
+    }
+  }
+}

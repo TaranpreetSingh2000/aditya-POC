@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_heading_page_headings",
+  "info": {
+    "displayName": "Page-Heading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": false
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "Black",
+        "Red"
+      ],
+      "default": "Black",
+      "required": true
+    },
+    "hasBreakRow": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    }
+  }
+}

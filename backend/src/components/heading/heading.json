@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_heading_headings",
+  "info": {
+    "displayName": "Heading",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "headingboldtype": {
+      "type": "json"
+    }
+  }
+}

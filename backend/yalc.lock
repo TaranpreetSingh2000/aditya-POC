@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "text-sanitizer": {
+      "signature": "96bf9f0c61cd88eb52979f5a93b0c680",
+      "file": true
+    }
+  }
+}

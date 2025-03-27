@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teasers",
+  "info": {
+    "singularName": "teaser",
+    "pluralName": "teasers",
+    "displayName": "Teaser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "buttontext": {
+      "type": "string"
+    },
+    "bannerImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
